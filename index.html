@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilo.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <title>YOYO</title>
+    </head>
+    <body class="fondo">
+        <header class="cabecera">
+            <center><h1>YOYO & CO</h1></center>
+        </header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="zapatillas.html">Zapatillas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="zapatos.html">Zapatos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bolsos.html">Bolsos</a>
+            </li>
+        </ul>
+        <center>
+        <div class="contenedor"> 
+            <div class="card tarjeta">
+                <img id="imagenZapatilla" src="imagenes/zapatillas1.jpg" class="card-img-top imagenCard" alt="zapatillas">
+                <div class="botonesTarjeta">
+                    <button onclick="document.getElementById('imagenZapatilla').src='imagenes/zapatillas1.jpg'" class="btn btn-outline-primary botones">Atrás</button>
+                    <button onclick="document.getElementById('imagenZapatilla').src='imagenes/zapatillas2.jpg'" class="btn btn-outline-primary botones">Adelante</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Zapatillas</h5>
+                    <p class="card-text fuenteParrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">más info...</a>
+                </div>
+            </div>
+            <div class="card tarjeta">
+                <img id="imagenZapato" src="imagenes/zapatos1.jpg" class="card-img-top imagenCard" alt="zapatos">
+                <div class="botonesTarjeta">
+                    <button onclick="document.getElementById('imagenZapato').src='imagenes/zapatos1.jpg'" class="btn btn-outline-primary botones">Atrás</button>
+                    <button onclick="document.getElementById('imagenZapato').src='imagenes/zapatos8.jpg'" class="btn btn-outline-primary botones">Adelante</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Zapatos</h5>
+                    <p class="card-text fuenteParrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">más info...</a>
+                </div>
+            </div>
+            <div class="card tarjeta">
+                <img id="imagenBolso" src="imagenes/bolso3.jpg" class="card-img-top imagenCard" alt="bolso">
+                <div class="botonesTarjeta">
+                    <button onclick="document.getElementById('imagenBolso').src='imagenes/bolso3.jpg'" class="btn btn-outline-primary botones">Atrás</button>
+                    <button onclick="document.getElementById('imagenBolso').src='imagenes/bolso6.jpg'" class="btn btn-outline-primary botones">Adelante</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Bolsos</h5>
+                    <p class="card-text fuenteParrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">más info...</a>
+                </div>
+            </div>
+        </div>
+        </center>
+        <footer>
+            <div class="contenedorFooter">
+                <div class="footerVert">
+                    <div><h4>Acerca de </h4></div>
+                    <div><a class="enlace" href="">Equipo</a></div>
+                    <div><a class="enlace" href="">Empleo</a></div>
+                    <div><a class="enlace" href="">Política de privacidad</a></div>
+                </div>
+                <div class="footerVert">
+                    <div><h4>Contacto</h4></div>
+                    <!--Completar el número de celular en la sección de whatsapp-->
+                    <!--Ejemplos de empresas de telefonía para facebook, twitter, instagram y linkedin-->
+                    <div class="footerHor">
+                        
+                        <div><i class="bi bi-emoji-sunglasses"></i><a href="https://www.facebook.com/movistarargentina"><img class="face"src="face.svg" alt="facebook"></a></div>
+                        <div><a href="https://twitter.com/movistararg"><img class="ttt"src="imagenes/twitter-50.png" alt="twitter"></a></div>
+                        <div><a href="https://www.instagram.com/telecom.empresas/"><img class="int" src="imagenes/instagram-50.png" alt="instagram"></a></div>
+                        <div><a href="https://ar.linkedin.com/company/telecomempresas"><img class="face1|" src="imagenes/linkedin-50.png" alt="linkedin"></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
